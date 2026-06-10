@@ -1,0 +1,38 @@
+body{
+    background-color: #f5f7fa;
+}
+
+.hero{
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200');
+
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero h1{
+    font-size: 55px;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+}
+
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.cta{
+    background: #0d6efd;
+}
+
+footer{
+    margin-top: 100px;
+}
